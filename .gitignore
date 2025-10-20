@@ -3,11 +3,22 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.egg-info/
-.venv/
-venv/
-.env
 
-# OS
+venv/
+.venv/
+env/
+ENV/
+
+*.egg-info/
+build/
+dist/
+
+# OS-specific files
 .DS_Store
 Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+.env

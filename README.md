@@ -8,6 +8,8 @@ The game was created to practice our python skills, more so to practice more wit
 python src/game.py
 ```
 ## How to test
+- python -m unittest -v
+- python -m src.game
 ## Features/Rules
 A word will be randomly selected
 It will show the masked word
